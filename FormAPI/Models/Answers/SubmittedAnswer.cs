@@ -27,16 +27,6 @@
         }
 
         /// <summary>
-        /// A constructor
-        /// </summary>
-        /// <param name="response">Response of question</param>
-        /// <param name="questionId">Question id</param>
-        public SubmittedAnswer(DateTime response, string questionId) : base(questionId)
-        {
-            Response = response.ToString("s");
-        }
-
-        /// <summary>
         /// Response of the question
         /// </summary>
         public string Response { get; set; }
