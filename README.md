@@ -60,13 +60,13 @@ This comprises endpoints that clients interact with, such as:
        [
             {
                 "questionType": "Paragraph",
-                "content":"FirstName"
+                "content":"FirstName",
                 "questionNumber": 1,
                 "questionGroup":"PersonalInformation"
             },
              {
                 "questionType": "DropDown",
-                "content":"Select from any"
+                "content":"Select from any",
                 "questionNumber": 2,
                 "choices":
                 [
